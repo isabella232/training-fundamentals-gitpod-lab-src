@@ -8,9 +8,9 @@ tasks:
     init: >
       docker-compose pull &&
       docker-compose up -d &&
-      docker-compose exec broker bash &&
       setterm -linewrap off
       gp sync-done setup
+    command: docker-compose exec broker bash 
     
   - name: Producer
     init: gp sync-await setup
