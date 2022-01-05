@@ -12,14 +12,12 @@ tasks:
     
   - name: Producer
     init: gp sync-await setup
-    command: 
-      docker-compose exec broker bash && 
-      "kafka-console-producer --bootstrap-server broker:9092 --topic test-topic --property parse.key=true --property key.separator=:"
+    command: docker-compose exec broker bash 
     openMode: split-right
     
   - name: Consumer
     init: gp sync-await setup
-    command: ls
+    command: docker-compose exec broker bash 
     openMode: split-right
 
 
