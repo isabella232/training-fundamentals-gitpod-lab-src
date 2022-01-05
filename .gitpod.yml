@@ -7,7 +7,7 @@ tasks:
   - name: Pull docker images and set up
     init: >
       docker-compose pull &&
-      docker-compose up -d
+      docker-compose up -d &&
       gp sync-done setup
     
   - name: Producer
