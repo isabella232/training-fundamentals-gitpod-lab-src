@@ -13,7 +13,7 @@ tasks:
   - name: Producer
     init: gp sync-await setup
     command: docker-compose exec broker bash 
-    openMode: split-right
+    openMode: split-bottom
     
   - name: Consumer
     init: gp sync-await setup
