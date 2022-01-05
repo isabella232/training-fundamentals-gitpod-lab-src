@@ -9,7 +9,7 @@ I'm taking the [Console Producer and Consumer Basics](https://kafka-tutorials.co
 
 First, open the lab environment in Gitpod!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/chuck-alt-delete/kafka-tutorial-with-gitpod)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/doughogan/fun-gitpod)
 
 Then, follow the [Kafka Tutorial instructions](https://kafka-tutorials.confluent.io/kafka-console-consumer-producer-basics/kafka.html#create-a-topic) from step 3 (create a topic).
 
