@@ -8,6 +8,7 @@ tasks:
     init: >
       docker-compose pull &&
       docker-compose up -d &&
+      setterm -linewrap off && 
       gp sync-done setup
     
   - name: Producer
