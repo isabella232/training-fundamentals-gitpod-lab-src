@@ -9,7 +9,7 @@ tasks:
       docker-compose pull &&
       docker-compose up -d &&
       gp sync-done setup
-    command: 
+    
   - name: Producer
     init: gp sync-await setup
     command: ls
