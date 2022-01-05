@@ -31,8 +31,8 @@ services:
       
   broker1:
     image: confluentinc/cp-kafka:6.1.0
-    hostname: broker
-    container_name: broker
+    hostname: broker1
+    container_name: broker1
     depends_on:
       - zookeeper
     ports:
