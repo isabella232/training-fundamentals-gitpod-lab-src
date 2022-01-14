@@ -6,11 +6,12 @@ I'm creating a one-click lab experience using [https://gitpod.io](Gitpod) as a r
 
 ## Instructions
 
-First, open the lab environment in Gitpod!
+Follow the instructions in `exercise-book-draft.html`. 
+
+You'll use this lab environment in Gitpod:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/confluentinc/training-fundamentals-gitpod-lab-src)
 
-Then...
 
 Have fun!
 
